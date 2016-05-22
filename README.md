@@ -5,7 +5,7 @@
 - Разница между call и apply заключается в способе передачи аргументов.
 - bind возвращает новую функцию с заданным контекстом, которую можно будет вызвать позже
 
-```
+``` javascript
 introduce = (name,profession) => {
     console.log(`My name is ${name} and my profession is ${profession}`); 
 }
