@@ -42,16 +42,5 @@ Math.max.apply(null,arr); //7
 ``` 
 Конечно, в новой спецификации лучше использовать оператор ```...```
 
-*Каррирование и частичное применение:* возможность создавать функцию с предзаданными аргументами: 
-``` javascript
-let arr = [{_id: 1, items: ['books']}, {_id: 5, items: ['apples','oranges']}, {_id: 6, items: []}];
-let get = (property, document) => return document[property];
-//DRY
-let ids = arr.map(get('_id'); // [1,5,6]
-let items = arr.map(get('items')); // [['books'],['apples','oranges'],[]]
-//вместо
-let ids = arr.map(document => return document._id);
-let items = arr.map(document => return document.items);
-```
 
 
