@@ -1,6 +1,12 @@
-# JS advanced faq
+# Ответы на продвинутые вопросы по Javascript
+
+##### Содержание 
+[call, apply & bind](#callapplybind)
+
+<a name="callapplybind"/>
 
 ## call, apply & bind
+
 - Методы call, apply, bind привязывают к функции контекст. 
 - Разница между call и apply заключается в способе передачи аргументов.
 - bind возвращает новую функцию с заданным контекстом, которую можно будет вызвать позже
@@ -17,3 +23,8 @@ introduce.bind(this)('Derek','musician');
 //Все 4 примера выведут в консоль: 
 //My name is Derek and my profession is musician
 ```
+
+
+
+
+
